@@ -53,8 +53,11 @@
   <main>
     <section class="sessao1">
       <picture>
-        <source media="(max-width: 600px)" srcset="images/768.svg"> <!-- essa imagem ira trocar a  de baixo quando passar de 600px. DEIXAR MAX em vez de minimo -->
-        <img src="images/1200.svg" alt="imagem ilustrativa de pequenos adroids">
+        <source srcset="images/576.svg" media="(max-width: 576px)" >
+        <source srcset="images/768.svg" media="(max-width: 768px)" >
+        <source srcset="images/992.svg" media="(max-width: 992px)" >
+
+        <img loading="lazy" src="images/1200.svg" alt="Capa do Thaise Cristina">
     </picture>
     </section> 
     <h2 class="text-center tamanho container">Busque por categoria</h2>
