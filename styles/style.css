@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+
+:root{
+    margin: 0;
+    padding: 0;
+    --fontetexto: 'Poppins', sans-serif;
+    --cordefundo: #fffaf8;
+    --corprimaria:#7D0404;
+    
+}
+main{
+    font-family: var(--fontetexto);
+    background-color: var(--cordefundo);
+}
+
+
+
+.logomarca {
+    width: 9.375rem;
+}
+
+
+.paragrafo{
+    font-weight: lighter;
+    margin-bottom: 10.625rem;
+}
+h2{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+   
+}
+.tamanho{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.icone{
+    font-size: 6.25rem;
+    
+}
+.texto{
+    font-weight: lighter;
+}
+.titulo{
+    font-weight: bolder;
+    font-size: 1.125rem;
+}
+.alinhamento{
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.sessao5{
+    background-color: #7D0404;
+    color: white;
+}
+.thaise{
+    width: 18.75rem;
+    margin-left: -8.125rem;
+    margin-top: -3.125rem;
+    margin-bottom: -4.375rem;
+}
+.esquerda{
+    text-align: left;
+    padding-left: 4.6875;
+}
+
+.esquerda a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.625rem;  
+}
+
+
+.cor-botao {
+    background-color: white;
+}
+.back-card {
+    background-color: #7D0404;
+    color: white;
+}
+
+.iconefim{
+    color:white;
+    font-size: 1.875rem;
+    padding-right: 1.25rem;
+   
+}
+
+.omnia {
+    text-decoration: none;
+
+    color: #7D0404;
+}
